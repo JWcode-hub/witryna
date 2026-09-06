@@ -170,3 +170,27 @@ body {
     padding: 16px 0;
     font-size: 0.875rem;
 }
+
+#mainNav .navbar-brand {
+    font-size: 1.2rem;
+    color: var(--color-400);
+}
+
+#mainNav .nav-link {
+    color: #333;
+    font-size: 0.95rem;
+    transition: color 0.2s ease-in-out;
+}
+
+#mainNav .nav-link:hover,
+#mainNav .nav-link.active {
+    color: var(--color-400);
+    font-weight: 600;
+}
+
+#onas,
+#kategorie,
+#autorzy,
+#kontakt {
+    scroll-margin-top: 70px;
+}
