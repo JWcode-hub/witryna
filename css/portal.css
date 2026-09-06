@@ -162,3 +162,11 @@ body {
 .contact-section .map-container {
     margin-top: 40px;
 }
+
+.site-footer {
+    background-color: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 0.875rem;
+}
